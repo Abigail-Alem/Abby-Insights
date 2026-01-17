@@ -7,20 +7,27 @@ const meta = {
 const introdata = {
     title: "I’m Abigail Birhan Alem",
     animated: {
-        first: "Culturally Conscious STEM Enthusiast.",
-        second: "Dedicated Community Advocate & Environmentalist.",
-        third: "Adaptable Learner & Global Citizen.",
+        first: "STEM Student with a Purpose-Driven Mindset.",
+        second: "Community-Oriented Leader & Problem Solver.",
+        third: "Adaptable Learner Focused on Impact.",
     },
-    description: "A driven and adaptable student with a diverse background spanning leadership, community service, and emerging skills in various fields. With experience in environmental advocacy, cultural exchange, and foundational coding, I am committed to building skills that can create a meaningful impact.",
+    description: "A driven and adaptable Computer Science student with experience across technology, leadership, and community involvement. Through mentoring, student organizations, and hands-on learning, I’ve developed strong problem-solving and communication skills. I’m committed to continuous growth and using my skills to create meaningful, real-world impact.",
     about: "Explore my journey across continents, my dedication to community and learning, and how I aim to combine technical expertise with a passion for social change. Here, you'll find insights into my academic achievements, extracurricular projects, and aspirations to use technology for a better world.",
-    your_img_url: "https://i.imgur.com/xVHtn7R.jpg",
+    your_img_url: "https://imgur.com/a/WoVjbEV",
 };
 
 const dataabout = {
-    title: "A bit about my self",
-    aboutme: "I am Abigail Alem, a dedicated high school senior with a passion for learning and community engagement. My diverse background includes leadership roles, where I advocate for environmental awareness and sustainability. My experiences have instilled in me a strong commitment to social equity and a desire to help those in need. Growing up in Ethiopia and moving to the United States has shaped my perspective, fostering a deep appreciation for cultural diversity and resilience. I enjoy hiking, reading, and exploring new ideas, all while focusing on my academic pursuits and extracurricular activities. I aim to leverage my abilities to create positive change in the world around me.",
+    title: "A bit about myself",
+    aboutme: "I’m Abigail Alem, a Computer Science student at the University of Wisconsin–Madison with a strong interest in technology, leadership, and meaningful impact. I enjoy working on problems that require critical thinking, collaboration, and creativity. Through mentoring, student organizations, and community involvement, I’ve developed strong communication and leadership skills. I’m motivated by continuous learning and aspire to use technology and leadership to build solutions that create real-world value."
 };
 const extracurricular = [{
+    title: "WISE (Women in Science & Engineering) – UW–Madison",
+    description: "Member",
+},
+{
+    title: "Aviation Club – UW–Madison",
+    description: "Early Contributor",
+},{
     title: "Youth Farmers",
     description: "President",
 },{
@@ -51,8 +58,12 @@ const extracurricular = [{
 ];
 
 const education = [{
+    title: "University of Wisconsin–Madison | UW–Madison",
+    description: "Aug 2025 - Present | GPA - 3.7/4.0 | Major: Computer Science | Coursework: Computer Science, Mathematics, Public Speaking, Italian, Arts",
+},
+{
     title: "High School - East High School | EHS",
-    description: "Sep 2024 - Present | GPA - 4.0/4.0 | Coursework: College Prep Math, Financial Literacy, Ceramics, English Literature, US History, PE, AVID, Communications",
+    description: "Sep 2024 - Present | GPA - 3.8/4.0 | Coursework: College Prep Math, Financial Literacy, Ceramics, English Literature, US History, PE, AVID, Communications",
 },
 {
     title: "Middle School & High School- EthioParents’ School | EPS",
@@ -86,7 +97,7 @@ const skills = [{
         value: 96,
     },
     {
-        name: "Programming - Java, Python",
+        name: "Programming - Python",
         value: 89,
     },
     {
@@ -95,27 +106,29 @@ const skills = [{
     },
 ];
 
-const services = [{
+const services = [
+    {
         title: "Leadership & Community Engagement",
-        description: "Team Management: Successfully led and managed club initiatives, from environmental projects to charity events, ensuring alignment with goals and meaningful impact. | Public Speaking: Communicated effectively in diverse settings, from school clubs to community awareness events, building confidence in presenting ideas. | Mentorship: Guided peers and younger students in coding and leadership, creating an inclusive learning environment.",
+        description: "Experience leading and supporting student initiatives, organizing events, and collaborating with teams to achieve shared goals. Strong skills in team coordination, mentorship, and public speaking within academic and community-focused settings.",
     },
     {
-        title: "Technical Proficiency",
-        description: "Programming Languages (Python, Java): Strong foundational skills in Python from sophomore mentorship sessions; adept in Java for school and personal projects. | Problem Solving: Applied analytical skills to troubleshoot code, tackle project challenges, and mentor peers effectively.",
+        title: "Technical Foundations",
+        description: "Strong foundational programming skills in Python, with experience applying problem-solving and analytical thinking to coursework, personal projects, and peer mentorship.",
     },
     {
-        title: "Environmental Advocacy",
-        description: "Sustainability Awareness: Led initiatives on the impact of industrialization and the environmental benefits of paper over plastic bags, promoting sustainable practices. | Project Execution: Collaborated on detailed visual and hands-on projects that conveyed environmental issues, bridging science with community awareness.",
+        title: "Mentorship & Learning Support",
+        description: "Provided guidance to peers and younger students in coding and leadership, fostering an inclusive and collaborative learning environment while reinforcing core technical and communication skills.",
     },
     {
-        title: "Communication & Interpersonal Skills",
-        description: "Empathy: Developed deep empathy through personal experiences, including pandemic hardships and cultural transitions, which informed leadership and community service efforts. | Cross-Cultural Understanding: Bridged experiences across U.S. and Ethiopian cultures, gaining adaptability and an inclusive approach to teamwork and learning. | Language Proficiency: Bilingual in English and Amharic, with a foundational knowledge of Spanish, enhancing communication across cultural settings.",
+        title: "Communication & Collaboration",
+        description: "Clear and effective communicator with experience working across diverse teams. Comfortable presenting ideas, facilitating discussions, and contributing thoughtfully in both technical and non-technical environments.",
     },
     {
-        title: "Adaptability & Resilience",
-        description: "Self-Initiated Learning: Proactively engaged in online courses and personal development during the pandemic, building independence and a growth mindset. | Flexibility: Adapted to new academic systems and social environments in the U.S. education system, overcoming challenges with discipline and persistence.",
+        title: "Adaptability & Growth Mindset",
+        description: "A proactive learner who embraces new challenges, adapts quickly to evolving academic and technical environments, and consistently seeks opportunities for personal and professional growth.",
     },
 ];
+
 
 
 const hobbies = [{
@@ -169,7 +182,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/Abigail-Alem",
-    // linkedin: "https://www.linkedin.com/in/eden-alem-7b936b1ab/",
+    linkedin: "https://www.linkedin.com/in/abigail-alem",
 };
 export {
     meta,
