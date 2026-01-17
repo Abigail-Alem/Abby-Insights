@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/Abby-Insights/static/css/main.fbc00891.css",
+    "main.js": "/Abby-Insights/static/js/main.6f2ff352.js",
+    "index.html": "/Abby-Insights/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.fbc00891.css",
+    "static/js/main.6f2ff352.js"
+  ]
+}
