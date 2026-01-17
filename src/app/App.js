@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { HashRouter as Router, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, useLocation } from "react-router-dom";
 import withRouter from "../hooks/withRouter";
 import AppRoutes from "./routes";
 import Headermain from "../header";
@@ -19,7 +19,7 @@ const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
   return (
-    <Router basename="/Abby-Insights">
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="cursor__dot">
         <AnimatedCursor
           innerSize={15}
