@@ -29,7 +29,7 @@ jobs:
       # Copy index.html to 404.html to fix 404s
       - run: cp build/index.html build/404.html
 
-      # Deploy to GitHub Pages
+      # Deploy to GitHub Pages 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
