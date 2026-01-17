@@ -21,7 +21,7 @@ const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/Abby-Insights">
       <div className="cursor__dot">
         <AnimatedCursor
           innerSize={15}
