@@ -13,7 +13,7 @@ const introdata = {
     },
     description: "A driven and adaptable Computer Science student with experience across technology, leadership, and community involvement. Through mentoring, student organizations, and hands-on learning, I’ve developed strong problem-solving and communication skills. I’m committed to continuous growth and using my skills to create meaningful, real-world impact.",
     about: "Explore my journey across continents, my dedication to community and learning, and how I aim to combine technical expertise with a passion for social change. Here, you'll find insights into my academic achievements, extracurricular projects, and aspirations to use technology for a better world.",
-    your_img_url: "https://imgur.com/zEu1o4N",
+    your_img_url: "https://imgur.com/zEu1o4N.jpg",
 };
 
 const dataabout = {
